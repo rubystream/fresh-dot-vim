@@ -23,6 +23,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'posva/vim-vue'
 Plug 'tomasr/molokai'
 Plug 'nanotech/jellybeans.vim'
+Plug 'majutsushi/tagbar'
 
 " Initialize plugin system
 call plug#end()
