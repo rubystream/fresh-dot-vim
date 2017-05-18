@@ -24,3 +24,5 @@ For this version the [vim-plug](https://github.com/junegunn/vim-plug) Vim plugin
 - [vim-fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so awesome, it should be illegal
 - [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) - an EditorConfig plugin for Vim.
 - [vim-vue](https://github.com/posva/vim-vue) - Vim syntax highlighting for Vue components.
+- [previm](https://github.com/kannokanno/previm) - Realtime preview by Vim. (Markdown, reStructuredText, textile) 
+- [open-browser.vim](https://github.com/tyru/open-browser.vim) - Open URI with your favorite browser from your most favorite editor 

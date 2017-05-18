@@ -15,15 +15,35 @@ Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'moll/vim-node'
+
 Plug 'ctrlpvim/ctrlp.vim'
+let g:ctrlp_custom_ignore = 'bower_components\|node_modules\|^.git$\|_site'
+
 Plug 'airblade/vim-gitgutter'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'tpope/vim-fugitive'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'posva/vim-vue'
+
 Plug 'tomasr/molokai'
 Plug 'nanotech/jellybeans.vim'
+
 Plug 'majutsushi/tagbar'
+Plug 'craigemery/vim-autotag'
+
+Plug 'kannokanno/previm' " yet another Markdown preview
+Plug 'tyru/open-browser.vim' " opens the browser for the above one
+
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+  let g:vim_markdown_folding_disabled=1
+  let g:vim_markdown_frontmatter=1
+  let g:vim_markdown_math=1
+  let g:markdown_fenced_languages = ['css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml']
+
+Plug 'tomtom/tcomment_vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'Raimondi/delimitMate'
 
 " Initialize plugin system
 call plug#end()
@@ -69,6 +89,14 @@ set softtabstop=2
 set expandtab
 set autoindent
 
+set showmatch
+set ignorecase
+set smartcase
+set smarttab
+set switchbuf=usetab,newtab
+set wildmenu
+set nowrap
+
 "hide buffers when not displayed
 set hidden
 
@@ -96,7 +124,11 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set laststatus=2
 
-let g:airline#extensions#tabline#enabled = 1
-
 colorscheme jellybeans
 let g:airline_theme='jellybeans'
+let g:airline#extensions#tabline#enabled = 1
+
+set history=50    " keep 50 lines of command line history
+set ruler   " show the cursor position all the time
+set showcmd   " display incomplete commands
+set incsearch   " do incremental searching
