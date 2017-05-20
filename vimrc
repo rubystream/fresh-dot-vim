@@ -1,3 +1,8 @@
+
+"necessary on some Linux distros for pathogen to properly load bundles
+filetype on
+filetype off
+
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
@@ -19,6 +24,7 @@ Plug 'moll/vim-node'
 Plug 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_custom_ignore = 'bower_components\|node_modules\|^.git$\|_site'
 
+Plug 'maksimr/vim-jsbeautify'
 Plug 'airblade/vim-gitgutter'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'tpope/vim-fugitive'
@@ -45,12 +51,11 @@ Plug 'tomtom/tcomment_vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
 
+Plug 'ternjs/tern_for_vim'
+
 " Initialize plugin system
 call plug#end()
 
-"necessary on some Linux distros for pathogen to properly load bundles
-filetype on
-filetype off
 
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
@@ -105,9 +110,6 @@ silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
 "map to bufexplorer
 nnoremap <leader>b :BufExplorer<cr>
-
-"key mapping for saving file
-nmap <C-s> :w<CR>
 
 "statusline setup
 set statusline=%f       "tail of the filename
