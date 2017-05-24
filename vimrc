@@ -127,7 +127,7 @@ set statusline+=\ %P    "percent through file
 set laststatus=2
 
 colorscheme jellybeans
-let g:airline_theme='jellybeans'
+let g:airline_theme='luna'
 let g:airline#extensions#tabline#enabled = 1
 
 set history=50    " keep 50 lines of command line history
