@@ -117,7 +117,9 @@ set statusline=%f       "tail of the filename
 "Git
 set statusline+=%{fugitive#statusline()}
 
+set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 set statusline+=%=      "left/right separator
 
@@ -125,6 +127,14 @@ set statusline+=%c,     "cursor column
 set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set laststatus=2
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
 
 colorscheme jellybeans
 let g:airline_theme='luna'
