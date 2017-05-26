@@ -53,6 +53,8 @@ Plug 'Raimondi/delimitMate'
 
 Plug 'ternjs/tern_for_vim'
 
+Plug 'KabbAmine/vCoolor.vim'
+
 " Initialize plugin system
 call plug#end()
 
