@@ -1,0 +1,24 @@
+snippet component "component"
+<${1:componentName}>$2</$1>
+endsnippet
+
+snippet template "template"
+<template>
+  <div id="$1">
+  </div>
+</template>
+<script>
+export default {
+  name: "$1",
+  data: function data() {
+    return {};
+	}
+}
+</script>
+<style${2: lang="${3:scss}"}>
+</style>
+endsnippet
+
+snippet v-model "bind vue model"
+v-model="${1:model}"
+endsnippet	

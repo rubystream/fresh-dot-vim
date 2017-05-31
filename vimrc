@@ -12,6 +12,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "mycoolsnippets"]
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'pangloss/vim-javascript'
@@ -54,6 +55,9 @@ Plug 'Raimondi/delimitMate'
 Plug 'ternjs/tern_for_vim'
 
 Plug 'KabbAmine/vCoolor.vim'
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin system
 call plug#end()
