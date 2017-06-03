@@ -65,6 +65,7 @@ Plug 'othree/html5.vim'
 Plug 'gorkunov/smartpairs.vim'
 Plug 'tpope/vim-vinegar'
 Plug 'junegunn/vim-peekaboo'
+Plug 'mustache/vim-mustache-handlebars'
 
 " Initialize plugin system
 call plug#end()
