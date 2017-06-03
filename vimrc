@@ -59,6 +59,13 @@ Plug 'KabbAmine/vCoolor.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+Plug 'thinca/vim-visualstar'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/html5.vim'
+Plug 'gorkunov/smartpairs.vim'
+Plug 'tpope/vim-vinegar'
+Plug 'junegunn/vim-peekaboo'
+
 " Initialize plugin system
 call plug#end()
 
