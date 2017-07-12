@@ -3,6 +3,13 @@
 filetype on
 filetype off
 
+"no backup files
+set nobackup
+"only in case you don't want a backup file while editing
+set nowritebackup
+"no swap files
+set noswapfile
+
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
@@ -43,10 +50,10 @@ Plug 'tyru/open-browser.vim' " opens the browser for the above one
 
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
-  let g:vim_markdown_folding_disabled=1
-  let g:vim_markdown_frontmatter=1
-  let g:vim_markdown_math=1
-  let g:markdown_fenced_languages = ['css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml']
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_frontmatter=1
+let g:vim_markdown_math=1
+let g:markdown_fenced_languages = ['css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml']
 
 Plug 'tomtom/tcomment_vim'
 Plug 'sheerun/vim-polyglot'
