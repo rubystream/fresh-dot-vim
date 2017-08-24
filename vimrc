@@ -105,6 +105,7 @@ filetype indent on
 syntax enable
 
 "add line numbers
+set relativenumber
 set number
 set numberwidth=5
 
@@ -165,3 +166,9 @@ set history=50    " keep 50 lines of command line history
 set ruler   " show the cursor position all the time
 set showcmd   " display incomplete commands
 set incsearch   " do incremental searching
+
+set splitbelow
+set splitright
+
+" yank to clipboard
+set clipboard^=unnamedplus
