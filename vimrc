@@ -171,4 +171,4 @@ set splitbelow
 set splitright
 
 " yank to clipboard
-set clipboard^=unnamedplus
+set clipboard^=unnamed
