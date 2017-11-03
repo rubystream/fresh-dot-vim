@@ -74,6 +74,8 @@ Plug 'tpope/vim-vinegar'
 Plug 'junegunn/vim-peekaboo'
 Plug 'mustache/vim-mustache-handlebars'
 
+Plug 'dkprice/vim-easygrep'
+
 " Initialize plugin system
 call plug#end()
 
