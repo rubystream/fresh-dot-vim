@@ -74,6 +74,9 @@ Plug 'tpope/vim-vinegar'
 Plug 'junegunn/vim-peekaboo'
 Plug 'mustache/vim-mustache-handlebars'
 
+" Asynchronous Lint Engine
+Plug 'w0rp/ale'
+
 Plug 'dkprice/vim-easygrep'
 
 " Initialize plugin system
