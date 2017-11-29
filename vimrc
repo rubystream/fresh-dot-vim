@@ -14,6 +14,7 @@ set noswapfile
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
+Plug 'mkitt/tabline.vim'
 
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-surround'
@@ -183,6 +184,9 @@ let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
 colorscheme jellybeans
 let g:airline_theme='luna'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_tab_nr = 1
+let g:airline#extensions#tabline#tab_nr_type= 2
+let g:airline#extensions#tabline#show_tab_type = 1
 
 set history=50    " keep 50 lines of command line history
 set ruler   " show the cursor position all the time
