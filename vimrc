@@ -95,6 +95,11 @@ Plug 'mustache/vim-mustache-handlebars'
 " Asynchronous Lint Engine
 Plug 'w0rp/ale'
 let g:ale_emit_conflict_warnings = 0
+" show errors or warnings in my statusline
+let g:airline#extensions#ale#enabled = 1
+" keep the sign gutter open
+let g:ale_sign_column_always = 1
+
 Plug 'dkprice/vim-easygrep'
 
 " Initialize plugin system
