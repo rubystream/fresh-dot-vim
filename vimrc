@@ -86,6 +86,7 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 
 Plug 'thinca/vim-visualstar'
 Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/html5-syntax.vim'
 Plug 'othree/html5.vim'
 Plug 'gorkunov/smartpairs.vim'
 Plug 'tpope/vim-vinegar'
