@@ -60,7 +60,7 @@ Plug 'tomtom/tcomment_vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
 
-Plug 'ternjs/tern_for_vim'
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 
 Plug 'KabbAmine/vCoolor.vim'
 
