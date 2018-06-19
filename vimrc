@@ -42,6 +42,7 @@ Plug 'posva/vim-vue'
 
 Plug 'tomasr/molokai'
 Plug 'nanotech/jellybeans.vim'
+Plug 'drewtempelmeyer/palenight.vim'
 
 Plug 'majutsushi/tagbar'
 Plug 'craigemery/vim-autotag'
@@ -187,7 +188,9 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
 
-colorscheme jellybeans
+set background=dark
+colorscheme palenight
+
 let g:airline_theme='luna'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_tab_nr = 1
