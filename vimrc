@@ -163,6 +163,12 @@ silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 "map to bufexplorer
 nnoremap <leader>b :BufExplorer<cr>
 
+"map for Tern
+silent! nmap <leader>td :TernDef<cr>
+silent! nmap <leader>tr :TernRefs<cr>
+silent! nmap <leader>tn :TernRename<cr>
+
+
 "statusline setup
 set statusline=%f       "tail of the filename
 
