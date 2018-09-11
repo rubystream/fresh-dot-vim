@@ -101,6 +101,7 @@ let g:ale_emit_conflict_warnings = 0
 let g:airline#extensions#ale#enabled = 1
 " keep the sign gutter open
 let g:ale_sign_column_always = 1
+let g:airline_powerline_fonts = 1
 
 Plug 'dkprice/vim-easygrep'
 
