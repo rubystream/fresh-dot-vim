@@ -61,7 +61,11 @@ Plug 'tomtom/tcomment_vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
 
-Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
+" Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+let g:UltiSnipsExpandTrigger = "<C-l>"
+let g:UltiSnipsJumpForwardTrigger = "<C-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<C-k>"
 
 Plug 'KabbAmine/vCoolor.vim'
 
