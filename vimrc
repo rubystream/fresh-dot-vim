@@ -199,6 +199,8 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
 
+let g:syntastic_html_tidy_ignore_errors = [ ' proprietary attribute "integrity"', ' proprietary attribute "crossorigin"', 'trimming empty <', 'unescaped &', 'lacks "action"', 'is not recognized!', 'discarding unexpected' ]
+
 set background=dark
 colorscheme palenight
 
