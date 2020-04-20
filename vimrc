@@ -157,7 +157,7 @@ set smartcase
 set smarttab
 set switchbuf=usetab,newtab
 set wildmenu
-set nowrap
+" set nowrap
 
 "hide buffers when not displayed
 set hidden
