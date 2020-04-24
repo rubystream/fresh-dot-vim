@@ -39,6 +39,7 @@ Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'kannokanno/previm' " yet another Markdown preview
+Plug 'tyru/open-browser.vim' "Open URI with your favorite browser from your most favorite editor.
 " Initialize plugin system
 call plug#end()
 
