@@ -278,6 +278,10 @@ set incsearch   " do incremental searching
 set splitbelow
 set splitright
 
+" set spelllang=en
+set spelllang=en_us
+set spell
+
 " yank to clipboard
 set clipboard^=unnamed
 
