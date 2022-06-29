@@ -152,7 +152,8 @@ let g:coc_global_extensions = [
   \ 'coc-vetur',
   \ 'coc-yaml',
   \ 'coc-css',
-  \ 'coc-markdownlint'
+  \ 'coc-markdownlint',
+  \ 'coc-swagger'
   \ ]
 " from readme
 " if hidden is not set, TextEdit might fail.
@@ -290,7 +291,7 @@ set spelllang=en_us
 set spell
 
 " yank to clipboard
-set clipboard^=unnamed
+set clipboard=unnamed
 
 let g:airline_theme='luna'
 let g:airline#extensions#tabline#enabled = 1
